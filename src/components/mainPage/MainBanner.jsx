@@ -4,7 +4,7 @@ import mainBanner from '/mainBanner.webp'
 function MainBanner() {
   return (
     <div>
-      <img src={mainBanner} alt="" />
+      <img src={mainBanner} alt="mainBanner" />
     </div>
   )
 }
