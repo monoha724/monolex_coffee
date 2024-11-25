@@ -200,10 +200,10 @@ const products = [
     },
 ]
 
-// export const handlers = [
-//   http.get('/products', () => {
-//     return HttpResponse.json(
-//     {}
-//     )
-//   })
-// ]
+export const handlers = [
+  http.get('/products', () => {
+    return HttpResponse.json(
+    {}
+    )
+  })
+]
