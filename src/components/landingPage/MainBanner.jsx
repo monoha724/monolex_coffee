@@ -3,7 +3,7 @@ import mainBanner from '/mainBanner.webp'
 
 function MainBanner() {
   return (
-    <div>
+    <div class='flex justify-center'>
       <img src={mainBanner} alt="mainBanner" />
     </div>
   )

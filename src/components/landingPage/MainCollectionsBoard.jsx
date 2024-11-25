@@ -19,38 +19,38 @@ function MainCollectionsBoard() {
         class='grid grid-rows-3 gap-[3rem] place-items-center'>
         <div className='mainCollectionsSetArea'
             class='grid max-w-[1200px] gap-[1rem]'>
-            <p class='text-2xl font-extrabold'>TIMELESS BEST</p>
+            <span class='text-2xl font-extrabold'>TIMELESS BEST</span>
             <div class='grid grid-cols-4 content-center gap-[1rem]'>
                 <div class='grid gap-[1rem]'>
                     <img src={set01} alt="set01" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>TIMELESS COFFEE</p>
-                        <p>TIMELESS COFFEE + ミルセット</p>
-                        <p class='font-extrabold'>¥3,400 JPY</p>
+                        <span class='text-[#999999]'>TIMELESS COFFEE</span>
+                        <span>TIMELESS COFFEE + ミルセット</span>
+                        <span class='font-extrabold'>¥3,400 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={tumblr} alt="tumblr" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>TIMELESS COFFEE</p>
-                        <p>SUS Coffee タンブラー (350ml)</p>
-                        <p class='font-extrabold'>¥2,420 JPY</p>
+                        <span class='text-[#999999]'>TIMELESS COFFEE</span>
+                        <span>SUS Coffee タンブラー (350ml)</span>
+                        <span class='font-extrabold'>¥2,420 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={coffee01} alt="coffee01" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>TIMELESS COFFEE</p>
-                        <p>TIMELESS コーヒー豆 (100g)</p>
-                        <p class='font-extrabold'>¥880 JPY</p>
+                        <span class='text-[#999999]'>TIMELESS COFFEE</span>
+                        <span>TIMELESS コーヒー豆 (100g)</span>
+                        <span class='font-extrabold'>¥880 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={coffee02} alt="coffee02" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>TIMELESS COFFEE</p>
-                        <p>TIMELESS コーヒー豆 2個セット (200g)</p>
-                        <p class='font-extrabold'>¥1,650 JPY</p>
+                        <span class='text-[#999999]'>TIMELESS COFFEE</span>
+                        <span>TIMELESS コーヒー豆 2個セット (200g)</span>
+                        <span class='font-extrabold'>¥1,650 JPY</span>
                     </div>
                 </div>
                 
@@ -58,76 +58,76 @@ function MainCollectionsBoard() {
         </div>
         <div className='mainCollectionsDripperArea'
             class='grid max-w-[1200px] gap-[1rem]'>
-            <p class='text-2xl font-extrabold'>SET</p>
+            <span class='text-2xl font-extrabold'>SET</span>
             <div class='grid grid-cols-4 content-center gap-[1rem]'>
                 <div class='grid gap-[1rem]'>
                     <img src={set02} alt="set02" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>COFFEE CHANGGO</p>
-                        <p>ハニカム お得セット (豆 200g贈呈)</p>
-                        <p class='font-extrabold'>¥3,080 JPY</p>
+                        <span class='text-[#999999]'>COFFEE CHANGGO</span>
+                        <span>ハニカム お得セット (豆 200g贈呈)</span>
+                        <span class='font-extrabold'>¥3,080 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={set03} alt="set03" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>NUVO</p>
-                        <p>HOMEBREW デュアルドリップセット</p>
-                        <p class='font-extrabold'>¥1,530 JPY</p>
+                        <span class='text-[#999999]'>NUVO</span>
+                        <span>HOMEBREW デュアルドリップセット</span>
+                        <span class='font-extrabold'>¥1,530 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={set05} alt="set05" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>HARIO</p>
-                        <p>アイスコーヒーメーカー</p>
-                        <p class='font-extrabold'>¥2,320 JPY</p>
+                        <span class='text-[#999999]'>HARIO</span>
+                        <span>アイスコーヒーメーカー</span>
+                        <span class='font-extrabold'>¥2,320 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={set06} alt="set06" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>KALITA</p>
-                        <p>ウェーブ 185 ドリップセット</p>
-                        <p class='font-extrabold'>¥4,400 JPY</p>
+                        <span class='text-[#999999]'>KALITA</span>
+                        <span>ウェーブ 185 ドリップセット</span>
+                        <span class='font-extrabold'>¥4,400 JPY</span>
                     </div>
                 </div>
             </div>
         </div>
         <div className='mainCollectionsPotArea'
             class='grid max-w-[1200px] gap-[1rem]'>
-            <p class='text-2xl font-extrabold'>COFFEE POT</p>
+            <span class='text-2xl font-extrabold'>COFFEE POT</span>
             <div class='grid grid-cols-4 content-center gap-[1rem]'>
                 <div class='grid gap-[1rem]'>
                     <img src={pot06} alt="pot06" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>CITTA</p>
-                        <p>テフロンドリップポート</p>
-                        <p class='font-extrabold'>¥2,540 JPY</p>
+                        <span class='text-[#999999]'>CITTA</span>
+                        <span>テフロンドリップポート</span>
+                        <span class='font-extrabold'>¥2,540 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={pot08} alt="pot08" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>NUVO</p>
-                        <p>HOMEBREW クラシックドリップポート</p>
-                        <p class='font-extrabold'>¥2,650 JPY</p>
+                        <span class='text-[#999999]'>NUVO</span>
+                        <span>HOMEBREW クラシックドリップポート</span>
+                        <span class='font-extrabold'>¥2,650 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={pot04} alt="pot04" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>FELLOW</p>
-                        <p>スタッグ 電気ポット 900ml (Black)</p>
-                        <p class='font-extrabold'>¥24,240 JPY</p>
+                        <span class='text-[#999999]'>FELLOW</span>
+                        <span>スタッグ 電気ポット 900ml (Black)</span>
+                        <span class='font-extrabold'>¥24,240 JPY</span>
                     </div>
                 </div>
                 <div class='grid gap-[1rem]'>
                     <img src={pot05} alt="pot05" />
                     <div class='grid gap-1'>
-                        <p class='text-[#999999]'>FELLOW</p>
-                        <p>スタッグ 電気ポット 900ml (White)</p>
-                        <p class='font-extrabold'>¥29,750 JPY</p>
+                        <span class='text-[#999999]'>FELLOW</span>
+                        <span>スタッグ 電気ポット 900ml (White)</span>
+                        <span class='font-extrabold'>¥29,750 JPY</span>
                     </div>
                 </div>
             </div>
@@ -139,9 +139,9 @@ function MainCollectionsBoard() {
 {/* <div class='grid gap-[1rem]'>
     <img src={set01} alt="set01" />
     <div class='grid gap-1'>
-        <p class='text-[#999999]'>TIMELESS COFFEE</p>
-        <p>TIMELESS COFFEE + ミルセット</p>
-        <p class='font-extrabold'>¥3,400 JPY</p>
+        <span class='text-[#999999]'>TIMELESS COFFEE</p>
+        <span>TIMELESS COFFEE + ミルセット</p>
+        <span class='font-extrabold'>¥3,400 JPY</p>
     </div>
 </div> */}
 
