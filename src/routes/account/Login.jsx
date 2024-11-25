@@ -35,7 +35,7 @@ function Login() {
     return (
         <div className='loginForm'
             class='grid max-w-[1200px] w-full justify-center gap-[3rem]'>
-            <span class='text-5xl font-bold'>ログイン</span>
+            <span class='text-3xl font-bold text-[#191919]'>ログイン</span>
             <div>
                 <button onClick={() => googleLogin()}>Sign in with Google</button>
             </div>

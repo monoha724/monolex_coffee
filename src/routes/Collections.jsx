@@ -12,11 +12,11 @@ import pot05 from '/items/pots/pot05.webp'
 import pot06 from '/items/pots/pot06.webp'
 import pot08 from '/items/pots/pot08.webp'
 
-function collections() {
+function Collections() {
   return (
     <div class='mt-[5rem] place-items-center'>
       <div class='max-w-[1200px] w-full'>
-          <p class='text-5xl font-bold'>商品</p>
+          <p class='text-3xl font-bold text-[#191919]'>商品</p>
           <div class='grid grid-cols-2'>
             
           </div>
@@ -25,4 +25,4 @@ function collections() {
   )
 }
 
-export default collections
+export default Collections

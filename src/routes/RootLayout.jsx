@@ -6,9 +6,9 @@ import LayoutHeader from './LayoutHeader'
 function RootLayout() {
   return (
     <>
-        <LayoutHeader />
-        <Outlet />
-        <LayoutFooter />
+      <LayoutHeader />
+      <Outlet />
+      <LayoutFooter />
     </>
   )
 }

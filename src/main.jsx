@@ -10,8 +10,9 @@ import Blog from './routes/Blog'
 import Contact from './routes/Contact'
 import Account from './routes/account/Account'
 import Login from './routes/account/Login'
-import Register from './routes/account/Register'
+
 import { GoogleOAuthProvider } from '@react-oauth/google'
+import Product from './routes/Product'
 
 const router = createBrowserRouter([
   { path: '/', element: <RootLayout />, children: [
@@ -20,17 +21,23 @@ const router = createBrowserRouter([
     { path: '/about', element: <About /> },
     { path: '/blog', element: <Blog /> },
     { path: '/contact', element: <Contact /> },
+    { path: '/product', element: <Product /> },
     { path: '/account', element: <Account /> }, 
     { path: '/account/login', element: <Login />},
-    { path: '/account/register', element: <Register /> },
   ] },
-  
 ])
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOC_ID}>
-      <RouterProvider router={router}/>
-    </GoogleOAuthProvider>
-  </StrictMode>,
-)
+  if(import.meta.env.VITE_MSW_API_MOCKING){
+    const { worker } = await import('./mocks/browser')
+    worker.start();
+  }
+
+  createRoot(document.getElementById('root')).render(
+    <StrictMode>
+      <GoogleOAuthProvider clientId={import.meta.env.VITE_GOC_ID}>
+        <RouterProvider router={router}/>
+      </GoogleOAuthProvider>
+    </StrictMode>,
+  )
+
+

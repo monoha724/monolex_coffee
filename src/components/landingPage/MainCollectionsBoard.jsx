@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import set01 from '/items/best/set01.webp'
 import tumblr from '/items/best/tumblr.webp'
 import coffee01 from '/items/best/coffee01.webp'
@@ -21,14 +22,16 @@ function MainCollectionsBoard() {
             class='grid max-w-[1200px] gap-[1rem]'>
             <span class='text-2xl font-extrabold'>TIMELESS BEST</span>
             <div class='grid grid-cols-4 content-center gap-[1rem]'>
-                <div class='grid gap-[1rem]'>
-                    <img src={set01} alt="set01" />
-                    <div class='grid gap-1'>
-                        <span class='text-[#999999]'>TIMELESS COFFEE</span>
-                        <span>TIMELESS COFFEE + ミルセット</span>
-                        <span class='font-extrabold'>¥3,400 JPY</span>
+                <Link to='/product'>
+                    <div class='grid gap-[1rem]'>
+                        <img src={set01} alt="set01" />
+                        <div class='grid gap-1'>
+                            <span class='text-[#999999]'>TIMELESS COFFEE</span>
+                            <span>TIMELESS COFFEE + ミルセット</span>
+                            <span class='font-extrabold'>¥3,400 JPY</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <div class='grid gap-[1rem]'>
                     <img src={tumblr} alt="tumblr" />
                     <div class='grid gap-1'>

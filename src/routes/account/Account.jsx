@@ -13,7 +13,7 @@ function Account() {
     return (
         <div class='mt-[5rem] place-items-center'>
             <div class='max-w-[1200px] w-full'>
-                <p class='text-5xl font-bold'>アカウント</p>
+                <p class='text-3xl font-bold text-[#191919]'>アカウント</p>
                 <div class='grid grid-cols-2'>
                     <div>
                         <img src={userData.userInfo?.picture} alt="userPicture" />
