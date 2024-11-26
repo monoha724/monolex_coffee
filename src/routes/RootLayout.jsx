@@ -1,7 +1,7 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import LayoutFooter from './LayoutFooter'
-import LayoutHeader from './LayoutHeader'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import LayoutFooter from "./LayoutFooter";
+import LayoutHeader from "./LayoutHeader";
 
 function RootLayout() {
   return (
@@ -10,7 +10,7 @@ function RootLayout() {
       <Outlet />
       <LayoutFooter />
     </>
-  )
+  );
 }
 
-export default RootLayout
+export default RootLayout;
