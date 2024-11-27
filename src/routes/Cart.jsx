@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useAddCartStore } from "../store/productToCart";
+import { useAddCartStore } from "../store/ProductToCart";
 
 function Cart() {
   const { cartList, removeCartItem } = useAddCartStore();

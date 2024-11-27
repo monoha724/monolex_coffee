@@ -13,8 +13,6 @@ function ProductDetailBtn({ item }) {
     alert("追加成功！");
   };
 
-  console.log(cartList);
-
   return (
     <>
       <div className="btnWrapper" class="grid grid-rows-3 gap-[1rem]">
