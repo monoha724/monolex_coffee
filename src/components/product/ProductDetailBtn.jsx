@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { useAddCartStore } from "../../store/productToCart";
+import { useAddCartStore } from "../../store/ProductToCart";
 
 function ProductDetailBtn({ item }) {
   const { cartList } = useAddCartStore();
