@@ -1,10 +1,8 @@
-import axios from "axios";
 import React, { useState } from "react";
 import { useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Collections() {
-  const navi = useNavigate();
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -25,13 +23,20 @@ function Collections() {
         <p class="text-3xl font-bold text-[#191919]">商品</p>
         <div class="grid grid-cols-4 gap-[3rem_1rem]">
           {items.map((item) => (
-            <Link to={`/product/${item?.id}`} class="hover:drop-shadow-xl">
+            <Link
+              to={`/product/${item?.id}`}
+              key={item.id}
+              id={item.id}
+              class="hover:drop-shadow-xl"
+            >
               <div class="grid gap-[1rem]">
                 <img src={item.img} alt={item.img} />
                 <div class="grid gap-1">
                   <span class="text-[#999999]">{item.maker}</span>
                   <span>{item.pName}</span>
-                  <span class="font-extrabold">¥{item.price} JPY</span>
+                  <span class="font-extrabold">
+                    ¥{Number(item.price).toLocaleString()} JPY
+                  </span>
                 </div>
               </div>
             </Link>

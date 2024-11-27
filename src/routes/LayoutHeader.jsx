@@ -8,8 +8,9 @@ import { useNavigate } from "react-router-dom";
 
 function LayoutHeader() {
   const navi = useNavigate();
+
   const accountPageHandler = () => {
-    if (localStorage.length === 0) {
+    if (localStorage.getItem("userInfo") == null || undefined) {
       navi("/account/login");
     } else {
       navi("/account");
@@ -38,7 +39,9 @@ function LayoutHeader() {
             alt="accountIcon"
             onClick={accountPageHandler}
           />
-          <img src={cartIcon} alt="cartIcon" />
+          <Link to="/cart">
+            <img src={cartIcon} alt="cartIcon" />
+          </Link>
         </div>
       </div>
       <hr />
@@ -50,8 +53,8 @@ function LayoutHeader() {
           <Link to="/">ホーム</Link>
           <Link to="/collections">商品一覧</Link>
           <Link to="/about">TIMELESS COFFEEについて</Link>
-          <Link to="/blog">ブログ</Link>
-          <Link to="/contact">お問い合わせ</Link>
+          <Link to="/blog">ブログ(開発中)</Link>
+          <Link to="/contact">お問い合わせ(開発中)</Link>
         </div>
       </div>
       <hr />

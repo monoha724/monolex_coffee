@@ -13,6 +13,7 @@ import Login from "./routes/account/Login";
 
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import Product from "./routes/Product";
+import Cart from "./routes/Cart";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: "/blog", element: <Blog /> },
       { path: "/contact", element: <Contact /> },
       { path: "/product/:id", element: <Product /> },
+      { path: "/cart", element: <Cart /> },
       { path: "/account", element: <Account /> },
       { path: "/account/login", element: <Login /> },
     ],
