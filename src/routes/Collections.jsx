@@ -1,15 +1,28 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Collections() {
   const [items, setItems] = useState([]);
+  // const [totalItemsCount, setTotalItemsCount] = useState();
 
   useEffect(() => {
-    async function getItems() {
-      const response = await fetch("http://localhost:3000/items");
-      const resData = await response.json();
-      setItems(resData);
+    async function getItems(curPage = 1) {
+      await axios
+        .get("http://localhost:3000/items", {
+          params: {
+            _page: curPage,
+            _limit: 8,
+            _sort: Number("id"),
+            _order: "desc",
+          },
+        })
+        .then((res) => {
+          console.log(res.data);
+          setItems(res.data);
+          setTotalItemsCount();
+        });
     }
 
     getItems();
@@ -42,6 +55,7 @@ function Collections() {
             </Link>
           ))}
         </div>
+        <div className="paginationWrapper">{}</div>
       </div>
     </div>
   );
