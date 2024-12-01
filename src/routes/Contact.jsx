@@ -33,7 +33,7 @@ function Contact() {
             placeholder="コメント"
             class="border-2 border-slate-600 p-2"
           ></textarea>
-          <div class="flex items-end">
+          <div class="grid place-items-end">
             <button class="p-[0.5rem] text-[#f1f1f5] bg-slate-950 hover:bg-[#767676] w-[30%]">
               送信
             </button>

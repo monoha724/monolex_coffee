@@ -53,7 +53,7 @@ function LayoutHeader() {
           <Link to="/">ホーム</Link>
           <Link to="/collections">商品一覧</Link>
           <Link to="/about">TIMELESS COFFEEについて</Link>
-          <Link to="/blog">ブログ(開発中)</Link>
+          <Link to="/blog">ブログ</Link>
           <Link to="/contact">お問い合わせ</Link>
         </div>
       </div>
