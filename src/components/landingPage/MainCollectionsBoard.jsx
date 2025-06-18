@@ -22,20 +22,20 @@ function MainCollectionsBoard() {
         className="mainCollectionsSetArea"
         class="grid max-w-[1200px] gap-[1rem]"
       >
-        <span class="text-2xl font-extrabold">TIMELESS BEST</span>
+        <span class="text-2xl font-extrabold">MONOLEX BEST</span>
         <div class="grid grid-cols-4 content-center gap-[1rem]">
           <div class="grid gap-[1rem]">
             <img src={set01} alt="set01" />
             <div class="grid gap-1">
-              <span class="text-[#999999]">TIMELESS COFFEE</span>
-              <span>TIMELESS COFFEE + ミルセット</span>
+              <span class="text-[#999999]">MONOLEX COFFEE</span>
+              <span>MONOLEX COFFEE + ミルセット</span>
               <span class="font-extrabold">¥3,400 JPY</span>
             </div>
           </div>
           <div class="grid gap-[1rem]">
             <img src={tumblr} alt="tumblr" />
             <div class="grid gap-1">
-              <span class="text-[#999999]">TIMELESS COFFEE</span>
+              <span class="text-[#999999]">MONOLEX COFFEE</span>
               <span>SUS Coffee タンブラー (350ml)</span>
               <span class="font-extrabold">¥2,420 JPY</span>
             </div>
@@ -43,16 +43,16 @@ function MainCollectionsBoard() {
           <div class="grid gap-[1rem]">
             <img src={coffee01} alt="coffee01" />
             <div class="grid gap-1">
-              <span class="text-[#999999]">TIMELESS COFFEE</span>
-              <span>TIMELESS コーヒー豆 (100g)</span>
+              <span class="text-[#999999]">MONOLEX COFFEE</span>
+              <span>MONOLEX コーヒー豆 (100g)</span>
               <span class="font-extrabold">¥880 JPY</span>
             </div>
           </div>
           <div class="grid gap-[1rem]">
             <img src={coffee02} alt="coffee02" />
             <div class="grid gap-1">
-              <span class="text-[#999999]">TIMELESS COFFEE</span>
-              <span>TIMELESS コーヒー豆 2個セット (200g)</span>
+              <span class="text-[#999999]">MONOLEX COFFEE</span>
+              <span>MONOLEX コーヒー豆 2個セット (200g)</span>
               <span class="font-extrabold">¥1,650 JPY</span>
             </div>
           </div>

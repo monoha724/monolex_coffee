@@ -7,7 +7,7 @@ function About() {
   return (
     <div class="mt-[5rem] place-items-center">
       <div class="grid max-w-[1200px] w-full h-full gap-[3rem]">
-        <p class="text-3xl font-bold text-[#191919]">TIMELESS COFFEEについて</p>
+        <p class="text-3xl font-bold text-[#191919]">MONOLEX COFFEEについて</p>
         <div class="grid grid-cols-2 gap-[3rem]">
           <div>
             <img src={aboutImg} alt="aboutImg" />
@@ -43,7 +43,7 @@ function About() {
               晩ごはんのあと、何気ない会話のために大切な人ために淹れるコーヒー。
               <br />
               <br />
-              TIMELESS COFFEEは、
+              MONOLEX COFFEEは、
               <br />
               そんな時間に小さな明かりを灯すようなコーヒーです。
               <br />

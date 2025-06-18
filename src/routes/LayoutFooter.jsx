@@ -16,7 +16,7 @@ function LayoutFooter() {
       </div>
       <div class="flex justify-center mt-[5rem]">
         <span class="text-xs text-[#999999]">
-          @ 2024, TIMELESS COFFEE karabiner
+          @ 2025, MONOLEX COFFEE karabiner
         </span>
       </div>
     </div>

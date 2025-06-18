@@ -26,7 +26,7 @@ function LayoutHeader() {
           class="grid justify-center my-[3rem] col-start-2 col-span-4"
         >
           <Link to="/">
-            <img src={tlcLogoFull} alt="tlcLogoFull" />
+            <p class="text-3xl font-extrabold">MONOLEX COFFEE</p>
           </Link>
         </div>
         <div
@@ -52,7 +52,7 @@ function LayoutHeader() {
         >
           <Link to="/">ホーム</Link>
           <Link to="/collections">商品一覧</Link>
-          <Link to="/about">TIMELESS COFFEEについて</Link>
+          <Link to="/about">MONOLEX COFFEEについて</Link>
           <Link to="/blog">ブログ</Link>
           <Link to="/contact">お問い合わせ</Link>
         </div>

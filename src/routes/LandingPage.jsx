@@ -12,8 +12,7 @@ function LandingPage() {
       >
         <MainBanner />
         <MainCollectionsBoard />
-        <hr />
-        <MainCompanyLogo />
+        {/* <MainCompanyLogo /> */}
       </div>
     </div>
   );
